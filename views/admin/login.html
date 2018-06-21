@@ -70,7 +70,7 @@
     </div>
     <!-- /.social-auth-links -->
 
-    <a href="#">Esqueceu a senha</a><br>
+    <a href="/admin/forgot">Esqueceu a senha</a><br>
     <a href="register.html" class="text-center">Adicionar novo usuário</a>
 
   </div>
