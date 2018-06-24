@@ -2,10 +2,10 @@
   <footer class="main-footer">
     <!-- To the right -->
     <div class="pull-right hidden-xs">
-      Anything you want
+      Versão winter-2018
     </div>
     <!-- Default to the left -->
-    <strong>Copyright &copy; 2016 <a href="#">Company</a>.</strong> All rights reserved.
+    <strong>Sistema de automação imobiliário - <a href="#">Solução Imóveis Ltda - </a></strong> Todos os direitos reservados.
   </footer>
 
   <!-- Control Sidebar -->
