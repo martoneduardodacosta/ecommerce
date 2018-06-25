@@ -20,6 +20,22 @@
     
     }
 
+    public static function checkList($list)
+    {
+
+        foreach ($list as &$row) 
+        {
+     
+            $p = new Product();
+            $p->setData($row);
+            $row = $p->getValues();
+
+        }
+
+        return $list;
+
+    }
+
     public function save()
     {
 
@@ -102,7 +118,6 @@
     {
 
         $extension = explode('.', $file['name']);
-
         $extension = end($extension);
 
         switch ($extension) {
@@ -129,7 +144,6 @@
 
          imagejpeg($image, $dist);
 
-          
          imagedestroy($image); 
 
          $this->checkPhoto();

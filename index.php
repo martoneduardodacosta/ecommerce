@@ -14,6 +14,9 @@ $app->config('debug', true);
 // SITE.PHP no admin
 require_once("site.php");
 
+// Arquivo de funções do Sistema
+require_once("functions.php");
+
 // Cria um arquivo de ROTAS para as rotinas de administração do site
 require_once("admin.php");
 
